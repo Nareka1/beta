@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   ssr:true,
   pages: true,
     app: {
-    baseURL: '/beta/'
+    baseURL: '/beta/',
+          buildAssetsDir: 'assets'
   }
 })
